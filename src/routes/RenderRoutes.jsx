@@ -9,7 +9,7 @@ const ROUTES = [
     element: <ProductList />,
   },
   {
-    path: "/addproduct",
+    path: "/add-product",
     key: "Add Product",
     element: <AddProduct />,
   },

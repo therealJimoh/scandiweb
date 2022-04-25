@@ -1,0 +1,13 @@
+.productitem-container {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 1px solid #ffffff;
+  padding: 8px;
+  .productitem-desc {
+    text-align: center;
+    color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+  }
+}
