@@ -1,4 +1,4 @@
-# Scandiweb PHP and React FulL-Stack Project
+# Scandiweb PHP and React Full-Stack Project
 
 This is a full-stack ecommerce website with basic functionality of view product and adding product.
 
