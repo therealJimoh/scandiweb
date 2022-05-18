@@ -23,21 +23,26 @@
       #product_form {
         .form-container {
           display: flex;
+          flex-direction: column;
           width: 50%;
           margin-top: 20px;
-          label {
-            color: #ffffff;
-            margin-right: 12px;
-            font-size: 18px;
-            width: 40%;
-          }
-          input,
-          select {
-            border: none;
-            outline: none;
-            width: 60%;
-            color: #000000;
-            font-size: 13px;
+          .formgroup {
+            display: flex;
+            width: 100%;
+            label {
+              color: #ffffff;
+              margin-right: 12px;
+              font-size: 18px;
+              width: 40%;
+            }
+            input,
+            select {
+              border: none;
+              outline: none;
+              width: 60%;
+              color: #000000;
+              font-size: 13px;
+            }
           }
         }
         .typeSwitcher {
